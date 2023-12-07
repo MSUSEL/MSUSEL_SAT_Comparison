@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\04_DataAnalysis",
+    "\\04_DataAnalysis\\01_input",
+    "\\04_DataAnalysis\\02_protocol",
+    "\\04_DataAnalysis\\03_incremental",
+    "\\04_DataAnalysis\\04_product",
+    "\\GlobalFunctions"
+  ],
+  "SelectedNode": "\\04_DataAnalysis\\02_protocol\\Graphing.py",
+  "PreviewInSolutionExplorer": false
+}

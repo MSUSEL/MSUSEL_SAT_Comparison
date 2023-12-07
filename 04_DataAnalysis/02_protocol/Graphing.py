@@ -26,11 +26,11 @@ def plot_versions2(data0, data1, data2, data3):
     # Plotting
     fig, ax = plt.subplots(2, 2, figsize=(18, 16))  # Increase figure size
 
-    plt.subplots_adjust(left=.12, bottom=.2, right=.95, top=.9, wspace=.4, hspace=0.5)  # Adjust layout parameters
+    plt.subplots_adjust(left=.12, bottom=.15, right=.95, top=.9, wspace=.4, hspace=0.5)  # Adjust layout parameters
 
     ax[0, 0].plot(tool_versions0, sum_values0, marker='o', markersize=13, linestyle='-',
                   color="green", alpha=0.6, markerfacecolor="green", markeredgecolor="black", linewidth=8)
-    ax[0, 0].set_title("(A) CVE-Bin Tool", fontsize="40", loc='left')  # Left-align the title
+    ax[0, 0].set_title("(A) CVE Binary Tool", fontsize="40", loc='left')  # Left-align the title
     ax[0, 0].set_xticks(tool_versions0)
     ax[0, 0].set_xticklabels(tool_versions0, fontsize=20, rotation=50)
     ax[0, 0].set_yticks(u0)

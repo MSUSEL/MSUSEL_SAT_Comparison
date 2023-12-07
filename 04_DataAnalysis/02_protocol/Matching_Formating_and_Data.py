@@ -40,6 +40,7 @@ def reformatting_to_match_given_csvs(path,tool):
         maxf.append(Count_Per_Image(proc_data.values)[2])
 
         v_temp = v[:v.index(".") + len(".") - 1]
+        v_temp = v_temp.replace("_",".")
         Version.append(v_temp)  # parsing sting to just have version
 
     results = pd.DataFrame()
@@ -80,10 +81,10 @@ def Count_Per_Image(data):
 
 
 def main():
-    path_Grype = str(Path(sys.path[0]).absolute().parent) + "/01_input/Grype/"
+    path_Grype = str(Path(sys.path[0]).absolute().parent) + "\\01_input\\Grype\\"
     reformatting_to_match_given_csvs(path_Grype, "Grype")
 
-    path_Grype = str(Path(sys.path[0]).absolute().parent) + "/01_input/Trivy/"
+    path_Grype = str(Path(sys.path[0]).absolute().parent) + "\\01_input\\Trivy\\"
     reformatting_to_match_given_csvs(path_Grype, "Trivy")
 
 main()
