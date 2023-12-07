@@ -21,3 +21,6 @@ Just run through the pipeline scripts that need to run in the protocol folders.
 
 Goals: 
 This program can download different versions of the tools Grype and Trivy and, given a list of Docker Images, download those as well. It runs each image through each version of each tool. We process the tool's output JSON files and collect info about vulnerability IDs, images found in, severities, and the total count of vulnerabilities in versions. The goal is to investigate and understand the two tools better, specifically their differences and the effects of those differences. We also hope to gain insight into the challenges these tools' developers face.
+
+Note:
+In the 04_DataAnalysis/02_protocol the graphing section we pulled in info from previous work on CVE-Bin Tool and CWE Checker as well to study.
