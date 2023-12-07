@@ -1,0 +1,13 @@
+/01_ToolVersions/04_product/Grype/
+/01_ToolVersions/04_product/Trivy/
+/02_DataAcquisition/01_input/Grype/
+/01_ToolVersions/03_incremental/db.tar.gz
+/02_DataAcquisition/01_input/Trivy/
+/02_DataAcquisition/04_product/Grype/
+/02_DataAcquisition/04_product/Trivy/
+/03_Processing/01_input/Grype/
+/03_Processing/01_input/Trivy/
+/04_DataAnalysis/01_input/Grype/
+/04_DataAnalysis/01_input/Trivy/
+/03_Processing/04_product/Grype/
+/03_Processing/04_product/Trivy/
